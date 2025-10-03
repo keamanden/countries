@@ -1,15 +1,21 @@
 package com.example.countries.controllers;
 
+
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class Countries {
 
-    @GetMapping("/countries")
-    public String countries() {
-        return "no countries do yet";
+public class Pages {
+
+    @GetMapping("/")
+    public String welcome() {
+        return "Welcome to the countries page";
     }
 
 
+
+
 }
+
+
