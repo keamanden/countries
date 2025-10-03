@@ -8,9 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 public class Pages {
 
-    @GetMapping("/")
+    @GetMapping("/welcome")
     public String welcome() {
-        return "Welcome to the countries page";
+        return "/welcome";
     }
 
 
